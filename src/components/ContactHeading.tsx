@@ -1,14 +1,14 @@
 import { FunctionComponent } from "react";
-//TODO: Add Import for Storybook Text component
+import { Text } from "@cencosud/parallel";
 import styles from "./ContactHeading.module.css";
 
 const ContactHeading: FunctionComponent = () => {
   return (
     <div className={styles.headingAndSupportingText}>
       <div className={styles.headingAndIcon}>
-        <Text className={styles.rectangle} variant="h1" className="" />
+        <Text className={styles.rectangle} variant="h1" />
       </div>
-      <Text className={styles.rectangle} className="" />
+      <Text className={styles.rectangle} />
     </div>
   );
 };

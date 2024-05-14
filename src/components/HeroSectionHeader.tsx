@@ -1,6 +1,5 @@
 import { FunctionComponent } from "react";
-//TODO: Add Import for Storybook Text component
-//TODO: Add Import for Storybook V component
+import { Text, Button } from "@cencosud/parallel";
 import styles from "./HeroSectionHeader.module.css";
 
 const HeroSectionHeader: FunctionComponent = () => {
@@ -8,10 +7,14 @@ const HeroSectionHeader: FunctionComponent = () => {
     <div className={styles.section}>
       <div className={styles.content}>
         <div className={styles.headingAndSupportingText}>
-          <Text className={styles.rectangle} variant="h1" className="" />
-          <Text className={styles.rectangle} className="" />
+          <Text className={styles.rectangle} variant="h1" />
+          <Text className={styles.rectangle} />
         </div>
-        <V className={styles.rectangle2} hierarchy="primary" label="Button" />
+        <Button
+          className={styles.rectangle2}
+          hierarchy="primary"
+          label="Button"
+        />
       </div>
     </div>
   );

@@ -1,6 +1,5 @@
 import { FunctionComponent } from "react";
-//TODO: Add Import for Storybook Text component
-//TODO: Add Import for Storybook V component
+import { Text, Button } from "@cencosud/parallel";
 import styles from "./ParallelCard.module.css";
 
 const ParallelCard: FunctionComponent = () => {
@@ -9,10 +8,14 @@ const ParallelCard: FunctionComponent = () => {
       <img className={styles.icon} alt="" src="/featured-icon.svg" />
       <div className={styles.content}>
         <div className={styles.textcontent}>
-          <Text className={styles.rectangle} variant="h3" className="" />
-          <Text className={styles.rectangle} className="" />
+          <Text className={styles.rectangle} variant="h3" />
+          <Text className={styles.rectangle} />
         </div>
-        <V className={styles.rectangle2} hierarchy="primary" label="Button" />
+        <Button
+          className={styles.rectangle2}
+          hierarchy="primary"
+          label="Button"
+        />
       </div>
     </div>
   );

@@ -1,6 +1,5 @@
 import { FunctionComponent } from "react";
-//TODO: Add Import for Storybook Text component
-//TODO: Add Import for Storybook V component
+import { Button, Text } from "@cencosud/parallel";
 import styles from "./DownloadBookSection.module.css";
 
 const DownloadBookSection: FunctionComponent = () => {
@@ -9,14 +8,10 @@ const DownloadBookSection: FunctionComponent = () => {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.headingAndSupportingText}>
-            <Text className={styles.rectangle} variant="h1" className="" />
-            <Text className={styles.rectangle} className="" />
+            <Text className={styles.rectangle} variant="h1" />
+            <Text className={styles.rectangle} />
           </div>
-          <V
-            className={styles.rectangle2}
-            hierarchy="secondary"
-            label="Button"
-          />
+          <Button hierarchy="secondary" label="Button" />
         </div>
       </div>
     </div>

@@ -4,9 +4,9 @@ import Hero from "../components/Hero";
 import Main from "../components/Main";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import styles from "./Home2.module.css";
+import styles from "./Home.module.css";
 
-const Home2: FunctionComponent = () => {
+const Home: FunctionComponent = () => {
   return (
     <div className={styles.home}>
       <ParallelNavbar />
@@ -28,4 +28,4 @@ const Home2: FunctionComponent = () => {
   );
 };
 
-export default Home2;
+export default Home;

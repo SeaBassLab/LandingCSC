@@ -1,6 +1,5 @@
 import { FunctionComponent } from "react";
-//TODO: Add Import for Storybook OnOca component
-//TODO: Add Import for Storybook V component
+import { Button, CSC } from "@cencosud/parallel";
 import styles from "./ParallelNavbar.module.css";
 
 const ParallelNavbar: FunctionComponent = () => {
@@ -8,15 +7,15 @@ const ParallelNavbar: FunctionComponent = () => {
     <div className={styles.navbar}>
       <div className={styles.container}>
         <div className={styles.projectLogos}>
-          <OnOca className={styles.rectangle} logoType />
+          <CSC />
         </div>
         <div className={styles.rectangleParent}>
-          <V
+          <Button
             className={styles.rectangle1}
             hierarchy="tertiary"
             label="Button"
           />
-          <V
+          <Button
             className={styles.rectangle1}
             hierarchy="tertiary"
             label="Button"
