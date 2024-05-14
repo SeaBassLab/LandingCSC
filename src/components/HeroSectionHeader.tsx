@@ -8,19 +8,17 @@ const HeroSectionHeader: FunctionComponent = () => {
         <div className="self-stretch flex flex-col items-center justify-center gap-[16px]">
           <Text className="w-[300px] relative" variant="h1" />
           <Text className="w-[300px] relative" />
-    <div className={styles.section}>
-      <div className={styles.content}>
-        <div className={styles.headingAndSupportingText}>
-          <Text variant="h1" />
-          <Text />
-        </div>
+          <div>
+            <div>
+              <div>
+                <Text variant="h1" />
+                <Text />
+              </div>
 
-        <Button
-          className="w-[66px] relative"
-          className={styles.rectangle2}
-          hierarchy="primary"
-          label="Button"
-        />
+              <Button hierarchy="primary" label="Button" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
