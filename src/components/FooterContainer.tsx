@@ -1,15 +1,15 @@
 import { FunctionComponent } from "react";
 import { CSC, Text } from "@cencosud/parallel";
-import styles from "./FooterContainer.module.css";
 
 const FooterContainer: FunctionComponent = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.projectLogos}>
+
+    <div className="self-stretch flex-1 flex flex-row items-center justify-between">
+      <div className="w-[300px] flex flex-row items-center justify-start">
         <CSC />
       </div>
-      <div className={styles.rectangleWrapper}>
-        <Text className={styles.rectangle1} />
+      <div className="flex flex-row items-center justify-end">
+        <Text className="w-[300px] relative" />
       </div>
     </div>
   );

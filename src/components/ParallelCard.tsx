@@ -1,21 +1,20 @@
 import { FunctionComponent } from "react";
 import { Text, Button } from "@cencosud/parallel";
-import styles from "./ParallelCard.module.css";
 
 const ParallelCard: FunctionComponent = () => {
   return (
-    <div className={styles.container}>
-      <img className={styles.icon} alt="" src="/featured-icon.svg" />
-      <div className={styles.content}>
-        <div className={styles.textcontent}>
-          <Text className={styles.rectangle} variant="h3" />
-          <Text className={styles.rectangle} />
+    <div className="w-[440px] shadow-[0px_10px_15px_-3px_rgba(16,_24,_40,_0.1),_0px_4px_6px_-2px_rgba(2,_122,_72,_0.03)] rounded-3xl bg-base-white h-[301px] flex flex-col items-start justify-center pt-0 px-6 pb-6 box-border gap-[24px]">
+      <img
+        className="w-14 relative rounded-9xl h-14"
+        alt=""
+        src="/featured-icon.svg"
+      />
+      <div className="self-stretch flex flex-col items-start justify-start gap-[20px]">
+        <div className="self-stretch flex flex-col items-start justify-start gap-[8px]">
+          <Text className="w-[300px] relative" variant="h3" className="" />
+          <Text className="w-[300px] relative" className="" />
         </div>
-        <Button
-          className={styles.rectangle2}
-          hierarchy="primary"
-          label="Button"
-        />
+        <Button className="w-[66px] relative" hierarchy="primary" label="Button" />
       </div>
     </div>
   );

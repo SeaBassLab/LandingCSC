@@ -8,19 +8,18 @@ import {
   Text,
   Unify,
 } from "@cencosud/parallel";
-import styles from "./PartnerSection.module.css";
 
 const PartnerSection: FunctionComponent = () => {
   return (
-    <div className={styles.partnerSection}>
-      <Text className={styles.rectangle} />
-      <div className={styles.rectangleParent}>
-        <OnOca logoType />
-        <Scraping logoType />
-        <Unify logoType />
-        <SRN logoType />
-        <ArticulosYCatalogacion logoType />
-        <MDI logoType />
+    <div className="w-[1051px] flex flex-col items-center justify-center gap-[10px] z-[0]">
+      <Text className="w-[300px] relative" className="" />
+      <div className="self-stretch flex flex-row items-center justify-center py-6 px-0 gap-[16px]">
+        <OnOca className="flex-1 relative" logoType />
+        <Scraping className="flex-1 relative" logoType />
+        <Unify className="flex-1 relative" logoType />
+        <SRN className="flex-1 relative" logoType />
+        <ArticulosYCatalogacion className="flex-1 relative" logoType />
+        <MDI className="flex-1 relative" logoType />
       </div>
     </div>
   );

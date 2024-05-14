@@ -4,21 +4,21 @@ import Hero from "../components/Hero";
 import Main from "../components/Main";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import styles from "./Home.module.css";
+
 
 const Home: FunctionComponent = () => {
   return (
-    <div className={styles.home}>
+    <div className="relative bg-base-white w-full flex flex-col items-center justify-start">
       <ParallelNavbar />
       <Hero />
       <img
-        className={styles.styleddivrightIcon}
+        className="w-[1280px] relative h-20"
         alt=""
         src="/navbar-container.svg"
       />
       <Main />
       <img
-        className={styles.styleddivleftIcon}
+        className="w-[1280px] relative h-20 object-contain"
         alt=""
         src="/navbar-container1.svg"
       />
