@@ -1,0 +1,27 @@
+.rectangle {
+  flex: 1;
+  position: relative;
+}
+.projectLogos {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle1 {
+  width: 300px;
+  position: relative;
+}
+.container,
+.rectangleWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.container {
+  align-self: stretch;
+  flex: 1;
+  justify-content: space-between;
+}

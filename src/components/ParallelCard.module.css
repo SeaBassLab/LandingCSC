@@ -1,0 +1,44 @@
+.icon {
+  width: 56px;
+  position: relative;
+  border-radius: var(--br-9xl);
+  height: 56px;
+}
+.rectangle {
+  width: 300px;
+  position: relative;
+}
+.textcontent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.rectangle2 {
+  width: 66px;
+  position: relative;
+}
+.container,
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.content {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.container {
+  width: 440px;
+  box-shadow: var(--shadow-large);
+  border-radius: var(--br-5xl);
+  background-color: var(--base-white);
+  height: 301px;
+  justify-content: center;
+  padding: 0 var(--padding-5xl) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+}

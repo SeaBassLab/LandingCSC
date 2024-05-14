@@ -1,0 +1,12 @@
+.rectangle {
+  width: 66px;
+  position: relative;
+}
+.proyects {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}

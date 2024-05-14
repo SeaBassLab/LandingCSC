@@ -1,0 +1,12 @@
+.footer {
+  width: 1280px;
+  background-color: var(--primary-25);
+  border-bottom: 1px solid var(--gray-200);
+  box-sizing: border-box;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-base);
+}

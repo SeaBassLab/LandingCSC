@@ -1,0 +1,18 @@
+.rectangle {
+  width: 300px;
+  position: relative;
+}
+.headingAndIcon,
+.headingAndSupportingText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.headingAndIcon {
+  width: 427px;
+}
+.headingAndSupportingText {
+  gap: var(--gap-5xs);
+  z-index: 0;
+}

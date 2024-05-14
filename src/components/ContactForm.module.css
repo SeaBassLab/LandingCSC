@@ -1,0 +1,52 @@
+.rectangle {
+  width: 300px;
+  position: relative;
+}
+.titlecontent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.rectangle2,
+.rectangle4 {
+  width: 314px;
+  position: relative;
+}
+.rectangle4 {
+  width: 279px;
+}
+.inputscontainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.rectangle5 {
+  width: 66px;
+  position: relative;
+}
+.action,
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form {
+  width: 446.9px;
+  box-shadow: 0 3.5px 5.26px -0.88px rgba(16, 24, 40, 0.1),
+    0 1.8px 3.51px -1.75px rgba(16, 24, 40, 0.06);
+  border-radius: 14.02px;
+  background-color: var(--base-white);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  z-index: 1;
+}

@@ -1,0 +1,37 @@
+.rectangle {
+  width: 300px;
+  position: relative;
+}
+.headingAndSupportingText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle2 {
+  width: 66px;
+  position: relative;
+}
+.container,
+.content,
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+}
+.container,
+.section {
+  flex-direction: row;
+}
+.container {
+  flex: 1;
+}
+.section {
+  align-self: stretch;
+}
