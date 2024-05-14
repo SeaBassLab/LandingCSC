@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
-import { Text, Button } from "@cencosud/parallel";
+//TODO: Add Import for Storybook Text component
+//TODO: Add Import for Storybook V component
 
 const ParallelCard: FunctionComponent = () => {
   return (
@@ -11,14 +12,10 @@ const ParallelCard: FunctionComponent = () => {
       />
       <div className="self-stretch flex flex-col items-start justify-start gap-[20px]">
         <div className="self-stretch flex flex-col items-start justify-start gap-[8px]">
-          <Text className="w-[300px] relative" variant="h3" />
-          <Text className="w-[300px] relative" />
+          <Text className="w-[300px] relative" variant="h3" className="" />
+          <Text className="w-[300px] relative" className="" />
         </div>
-        <Button
-          className="w-[66px] relative"
-          hierarchy="primary"
-          label="Button"
-        />
+        <V className="w-[66px] relative" hierarchy="primary" label="Button" />
       </div>
     </div>
   );
